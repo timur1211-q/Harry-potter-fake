@@ -1,0 +1,186 @@
+*{
+    font-family: "Triodion", serif;
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0 
+    
+}
+
+
+.logo{
+    width: 120px;
+}
+
+.menu-item{
+    text-decoration: none;
+    padding: 27px;
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+.magic-text{
+    text-align: center;
+
+}
+
+.menu-item:hover{
+    color: brown;
+}
+
+.h1-security{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.button-securiti{
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+.securiti-box{
+    justify-content: center;
+    font-size: 50px;
+}
+
+.footer{
+    background-color: black;
+    
+}
+
+.box-by{
+    display: flex;
+    flex-direction: column;
+    width: 148px;
+}
+
+.img-by{
+    width: 25%;
+}
+
+.photo:hover{
+    box-shadow: 0 0 0 3px #000;
+    border-radius: 4%;
+}
+
+.img-by:hover{
+    box-shadow: 0 0 0 3px #000;
+    border-radius: 4%;
+}
+
+.text-link:hover{
+    color: rgb(255, 166, 0)
+}
+
+.box-img-f{
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    background-color: rgb(255, 208, 150);
+}
+
+@media (max-width: 500px) {
+    .header{
+        flex-direction: row;
+        display: block;
+    }
+
+    .photo{
+        width: auto;
+    }
+
+    .img-by{
+        width: auto;
+    }
+
+    .h1-security{
+        font-size: 43px;
+    }
+
+    .a-securiti{
+        font-size: 35px;
+    }
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    padding: 20px;
+}
+
+.r-footer{
+    margin-top: 34%;
+    background-color: black;
+}
+
+.tm-img:hover{
+    box-shadow: 0 0 0 3px #000;
+    border-radius: 4%;
+}
+
+.tm-text{
+    text-align: center;
+}
+
+.tm-img{
+    width: 367px;
+}
+
+.box-img-r{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-link:hover{
+    filter: brightness(50%);
+}
+
+.logo-link{
+    transition: 0.2s;
+}
+
+.h1-34g{
+    text-align: center;
+}
+
+.div-3r4{
+    display: flex; 
+    flex-direction: column;  
+}
+
+.ty-678-iop{
+    margin-top: 18px;
+}
+
+.gr-567-yui{
+    width: 367px;
+}
+
+.gr-567-yui:hover{
+    box-shadow: 0 0 0 3px #000;
+    border-radius: 4%;
+}
+
+.f-t032{
+    text-align: center;
+}
